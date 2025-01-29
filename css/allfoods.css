@@ -1,0 +1,210 @@
+
+/* Featured Categories Section */
+
+.categories-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.category-container{
+    margin-left: 50px;
+}
+
+.categories{
+    background-color: #FFF5ED;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.float-text {
+    padding: 10px;
+    /* width: max-content; */
+    max-width: min-content;
+    color: white;
+    border-radius: 5px;
+    background-color: #080808b9;
+    width: max-content;
+    position: relative;
+    bottom: 180px;
+    left: 31%;
+}
+
+.text-center {
+    background-color: #e67e00;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.text-left {
+    text-align: left;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 20%;
+    float: left;
+    margin: 2%;
+    transition: 1s;
+}
+
+
+
+
+
+.box-3:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* Food Menu Section */
+
+.food-menu {
+    padding: 100px 20px;
+    background-color: #FFF5ED;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.food-menu h2 {
+    background-color: #e67e00;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.food-menu-container {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: flex-start;  
+    gap: 30px;  
+    margin-left: 20px;
+}
+
+/* Food Menu Box */
+.food-menu-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 23%;  /* Flex-grow 1, flex-shrink 1, base width 23% */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    height: 100%;
+}
+
+/* Maintain equal size for all items */
+.food-menu-box {
+    max-width: 23%;  /* Ensure the items are the same width */
+    width: 23%;
+}
+
+/* Hover Effects for Menu Boxes */
+.food-menu-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.food-menu-img {
+    width: 100%;
+    height: 250px;  
+    overflow: hidden;
+}
+
+.food-menu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-menu-box:hover .food-menu-img img {
+    transform: scale(1.1);  /* Image zoom on hover */
+}
+
+.food-menu-desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.food-menu-desc h4 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.food-price {
+    color: #ff8c00;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.food-menu-box .btn-primary {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.food-menu-box .btn-primary:hover {
+    background-color: #e67e00;
+}
+
+#no-food{
+    margin: auto;
+    display: block;
+    color: red;
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+

@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background: url('../images/hero\ img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #ff6347;
+}
+
+.logo {
+    max-width: 200px;
+    width: auto;
+    height: auto;
+   
+   
+}
+#logo-container{
+    background-color: #979393;
+    max-width: 300px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: none; /* Show this only when there's an error */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #ff6347;
+    outline: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #e5533d;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+}
+
+.login-container p a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+
+#powered-by {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #c7bc27;
+}

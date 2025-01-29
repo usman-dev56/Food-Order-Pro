@@ -1,0 +1,143 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #FFF5ED;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+}
+
+.navbar .logo img {
+    width: 150px;
+    padding: 25px;
+    padding-top: 30px;
+}
+
+.navbar .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu {
+    margin-right: 50px;
+}
+
+.navbar .menu ul li {
+    position: relative;
+}
+
+.navbar .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar .menu ul li a:hover {
+    background-color: #ff8c00;
+    border-radius: 5px;
+}
+
+.navbar .menu ul li a i {
+    margin-right: 5px;
+}
+
+
+.header {
+    height: 400px;
+    background-image: url('../images/hero-bg.jpg'); 
+
+
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    color: white;
+    animation: zoomInBackground 20s ease-in-out infinite;
+    transition: background-image 1s ease; /* Smooth transition */
+}
+
+.header.background-changed {
+    background-image: url('../images/header3.avif');
+}
+
+.header.background-changed2 {
+    background-image: url('../images/bg.jpg');
+}
+
+
+@keyframes zoomInBackground {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 120%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+#inner-header{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header .hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header .hero-text  {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#para{
+    margin: auto;
+    max-width: 70%;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}
+
+
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

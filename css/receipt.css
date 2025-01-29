@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Receipt Section */
+.receipt {
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.receipt h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Logo for Hotel Name */
+.receipt .logo {
+    font-size: 36px;
+    color: #27ae60; /* Green for the logo */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Text Style */
+.receipt p,
+.receipt h3 {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.receipt h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Order Details Table */
+.receipt table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.receipt table th,
+.receipt table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.receipt table th {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bold;
+}
+
+.receipt table td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Thank You Message */
+.thank-you {
+    text-align: center;
+    font-size: 20px;
+    color: #2ecc71;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Download button */
+.receipt a.btn-primary {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.receipt a.btn-primary:hover {
+    background-color: #2ecc71;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .receipt {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .receipt h2 {
+        font-size: 24px;
+    }
+
+    .receipt p,
+    .receipt h3 {
+        font-size: 14px;
+    }
+
+    .receipt table th,
+    .receipt table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .receipt .logo {
+        font-size: 28px;
+    }
+
+    .thank-you {
+        font-size: 18px;
+    }
+}

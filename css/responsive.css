@@ -1,0 +1,274 @@
+@media screen and (max-width: 768px) {
+    .navbar .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .navbar .nav-container {
+        
+        max-height: fit-content !important ;
+    }
+
+    .menu{
+        margin-right: 2px;
+    }
+
+    .navbar .logo img {
+        width: 120px;
+    }
+
+    /* Header Section */
+    .header {
+        height: 300px; /* Adjust header height for smaller screens */
+    }
+
+    .header .hero-text h1 {
+        font-size: 1.5rem !important; /* Reduce font size for mobile */
+    }
+
+    .header .hero-text #para {
+        font-size: 0.75rem;
+        max-width: 80%;
+    }
+
+    
+
+    /* Categories Section */
+    .categories-container {
+        width: 90%; /* Make the category container take up more space */
+        padding: 40px 20px;
+        margin: 0 auto;
+
+        
+    }
+
+   
+    
+
+  .category-container{
+
+    margin-left: 13%;
+  }
+
+    .box-3 {
+        width: 45%; /* Adjust category boxes to fit in two columns on mobile */
+        margin: 5%;
+    }
+
+    .text-center {
+        font-size: 1.5rem;
+
+        margin-bottom: 30px;
+        margin-left: 10%;
+    }
+
+    /* Food Menu Section */
+    .food-menu {
+        width: 95%; /* Adjust food menu container */
+        padding: 40px 20px;
+        align-items: center;
+        justify-content: center;
+
+       
+    }
+
+    .food-menu-container {
+        flex-direction: column; /* Stack food items vertically */
+        gap: 20px;
+        
+    }
+
+    .food-menu-box {
+        flex: 1 1 100%; /* Make food items take full width */
+        max-width: 80%;
+        margin-left: 8%;
+    }
+
+    #food-menu-txt{
+        font-size: 1.5rem;
+    }
+
+    .food-menu-img {
+        height: 200px; /* Adjust food image height for mobile */
+    }
+
+    .food-menu-desc h4 {
+        font-size: 1.4rem;
+    }
+
+    .food-price {
+        font-size: 1.2rem;
+    }
+
+    .food-detail {
+        font-size: 0.9rem;
+    }
+
+    /* Footer Section */
+    .footer {
+        padding: 15px 0;
+    }
+}
+
+
+/* Make sure the hamburger button is fixed above the navbar */
+.hamburger {
+    display: none; 
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    margin-right: 20px;
+    position: absolute; /* Position it relative to the navbar */
+    top: 10px; 
+    right: 2px; 
+    z-index: 1100; /* Higher z-index to ensure it's in front of the navbar */
+}
+
+/* Initially hide the close icon */
+#close-icon {
+    display: none;
+    font-size: 2rem;
+    color: red; /* Set the color of the close icon to red */
+    margin-right: 20px;
+}
+
+
+/* When menu is active, show the close icon */
+#menu.active #close-icon {
+    display: block;
+   
+}
+
+
+
+
+
+
+/* For smaller screens (Mobile Portraits) */
+@media screen and (max-width: 480px) {
+    
+    #menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+        z-index: 1001; /* Ensure the menu is above other content */
+        padding-top: 60px;
+        transition: all 0.3s ease;
+    }
+
+    /* When the menu is visible, show it */
+    #menu.active {
+        display: block; /* Show the menu */
+    }
+
+    /* For small screen, make the hamburger icon visible */
+    .hamburger {
+        display: block; /* Show the hamburger icon on mobile */
+        z-index: 1200; /* Ensure it's above the navbar */
+    }
+
+    /* Menu items inside the hamburger menu */
+
+    
+
+    .navbar .nav-container {
+       
+        max-height: 30px !important;
+    }
+    .navbar .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .navbar .menu ul li a {
+        padding: 10px;
+        font-size: 1.5rem;
+        color: white;
+        display: block;
+    }
+
+    .navbar .menu ul li a:hover {
+        background-color: #ff8c00;
+        border-radius: 5px;
+    }
+
+    .header {
+        height: 240px;
+    
+        background-image: url('../images/hero-bg.jpg'); 
+        
+   
+    }
+    
+    
+
+    .header .hero-text h1 {
+    
+        font-size: 2rem; /* Further reduce the font size */
+    }
+
+    .header .hero-text p {
+        font-size: 1rem;
+    }
+
+    .header .btn-primary {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .box-3 {
+        width: 90%; /* Use almost full width for categories on very small screens */
+        margin: 5% auto;
+    }
+   .food-menu {
+    padding: 2px 20px;
+    margin-top: 0px;
+}
+
+#food-menu{
+
+    margin-top: 50px !important;
+}
+    .food-menu-container {
+       max-height: fit-content;
+    }
+.food-conttainer{
+    margin-top: 20px;
+}
+    .food-menu-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .food-menu-img {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
