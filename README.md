@@ -32,6 +32,16 @@ Edit
 
 4. Run the project on localhost using XAMPP/WAMP/Laragon.
 
+--------------------------images---------------------------
+
+
+<img width="1349" height="624" alt="Screenshot 2025-01-06 232914" src="https://github.com/user-attachments/assets/9a9fe7ca-cb18-4a43-886c-2d65fdc34079" />
+<img width="1356" height="630" alt="Screenshot 2025-01-06 234220" src="https://github.com/user-attachments/assets/05ea994b-47bc-4757-918b-bf6a3d02a3bb" />
+
+
+
+
+
 ## 💡 Future Improvements
 
 - Add user login and registration
