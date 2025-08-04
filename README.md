@@ -30,13 +30,17 @@ Edit
 
 3. Configure your database in `includes/db.php`.
 
-4. Run the project on localhost using XAMPP/WAMP/Laragon.
+4. Run the project on localhost using XAMPP/WAMP.
 
---------------------------images---------------------------
+------------------------------------------------images-----------------------------------------------
 
 
 <img width="1349" height="624" alt="Screenshot 2025-01-06 232914" src="https://github.com/user-attachments/assets/9a9fe7ca-cb18-4a43-886c-2d65fdc34079" />
-<img width="1366" height="633" alt="Screenshot 2025-01-06 233018" src="https://github.com/user-attachments/assets/e83b274e-8ba6-4437-93c0-94b9fe0961b3" />
+<img width="1365" height="620" alt="Screenshot 2025-01-06 232939" src="https://github.com/user-attachments/assets/8cbbb588-0669-47a5-b6b2-f9e23d4ac932" />
+<img width="1356" height="630" alt="Screenshot 2025-01-06 234220" src="https://github.com/user-attachments/assets/1c48a47f-b202-4d33-a251-6ea4a66f8e5a" />
+
+
+
 
 
 
