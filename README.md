@@ -43,15 +43,3 @@ Edit
 
 
 
-
-
-
-
-
-## 💡 Future Improvements
-
-- Add user login and registration
-- Integrate payment gateway
-- Add real-time order status updates
-- Mobile app integration
-
