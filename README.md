@@ -36,7 +36,9 @@ Edit
 
 
 <img width="1349" height="624" alt="Screenshot 2025-01-06 232914" src="https://github.com/user-attachments/assets/9a9fe7ca-cb18-4a43-886c-2d65fdc34079" />
-<img width="1356" height="630" alt="Screenshot 2025-01-06 234220" src="https://github.com/user-attachments/assets/05ea994b-47bc-4757-918b-bf6a3d02a3bb" />
+<img width="1366" height="633" alt="Screenshot 2025-01-06 233018" src="https://github.com/user-attachments/assets/e83b274e-8ba6-4437-93c0-94b9fe0961b3" />
+
+
 
 
 
