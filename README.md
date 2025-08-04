@@ -3,10 +3,19 @@
 **FoodOrderPro** is a PHP-based food ordering system that allows admins to manage menus, process customer orders, and track deliveries.
 
 ## 🚀 Features
-- Admin login system
+
+### 🔐 Admin Panel
+- Secure admin login system
 - Add/Edit/Delete menu items
-- Customer order form
-- Order status tracking
+- View and manage all customer orders
+- Update order status (Pending, Processing, Delivered)
+- Manage contact messages and user reviews
+
+### 👤 User Panel
+- Browse available food items with prices and images
+- Place orders quickly through an intuitive form
+- Contact the admin for queries via a contact form
+- Submit reviews or feedback after ordering
 
 ## 🛠️ Tech Stack
 - HTML/CSS
