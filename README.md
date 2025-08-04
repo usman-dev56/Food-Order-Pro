@@ -21,7 +21,7 @@
 4. Open `localhost/food_prac2` in your browser
 
 ## 👨‍💻 Developed By
-Usman Umardraz — [@usman-dev56](https://github.com/usman-dev56)
+Usman — [@usman-dev56](https://github.com/usman-dev56)
 
 
 -----------------------images------------------------------
