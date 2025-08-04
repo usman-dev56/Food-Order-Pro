@@ -21,7 +21,6 @@
 ## 🧑‍💻 Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/yourusername/FoodOrderPro.git
 
 pgsql
 Copy
