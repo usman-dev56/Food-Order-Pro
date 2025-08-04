@@ -9,10 +9,11 @@
 - Order status tracking
 
 ## 🛠️ Tech Stack
-- PHP
-- MySQL
 - HTML/CSS
 - JavaScript
+- PHP
+- MySQL
+
 
 ## 📁 How to Run
 1. Clone this repo
