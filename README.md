@@ -1,4 +1,4 @@
-# FoodOrderPro 🍽️🍔
+# 🍽️ FoodOrderPro 🍔
 
 **FoodOrderPro** is a PHP-based food ordering system that allows admins to manage menus, process customer orders, and track deliveries.
 
@@ -18,7 +18,7 @@
 1. Clone this repo
 2. Copy to `/htdocs` in XAMPP
 3. Import `database.sql` to MySQL
-4. Open `localhost/food_prac2` in your browser
+4. Open `localhost/FoodOrderPro` in your browser
 
 ## 👨‍💻 Developed By
 Usman — [@usman-dev56](https://github.com/usman-dev56)
