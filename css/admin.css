@@ -1,0 +1,444 @@
+body {
+    height: 100vh;
+    background-color: #f4f4f4; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background: linear-gradient(90deg, #00c6ff, #0072ff); 
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+}
+
+#nav-div-logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: #f1e7e7;
+    margin-left: 20px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Allows the list items to center properly */
+}
+
+#navbar ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition:  0.3s, color 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    color: #f4f4f4;
+    transform: scale(1.05); /* Slight scaling for emphasis */
+}
+
+
+
+
+
+
+
+
+#main-content {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    width: 100%;
+    /* padding: 100px 25px; */
+    min-height: 90vh;
+    margin-top: 70px;
+}
+
+
+
+
+
+#main-content h1 {
+    text-align: center;
+    color: #444;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.success-message, .error-message {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.success-message {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.error-message {
+    background-color: #dc3545;
+    color: #fff;
+}
+.no-image {
+    color: #ff0000; 
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Make it responsive */
+    gap: 20px; /* Add some space between the cards */
+    margin-top: 20px;
+}
+
+.main-items {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    padding: 40px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    max-width: 100%;
+}
+
+.main-items:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.main-items h2 {
+    font-size: 3rem;
+    color: #0072ff;
+    margin-bottom: 10px;
+}
+
+.main-items p {
+    color: #666;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+#footer {
+    background: linear-gradient(90deg, #ff6a00, #ee0979); 
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+}
+
+.footer-div {
+    text-align: center;
+    color: #fff; 
+    font-size: 0.9rem;
+}
+
+.footer-div .text-center {
+    margin: 0;
+}
+
+.footer-div .footer-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.7); 
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.footer-div .footer-link:hover {
+    color: #ffe600; 
+    border-bottom: 1px solid #ffe600;
+}
+
+ 
+
+.btn-add-admin {
+    background: #007bff;
+   
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:  0.3s;
+}
+
+.btn-add-admin a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-add-admin:hover {
+    background: #0056b3;
+}
+
+.tbl-full {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tbl-full th, .tbl-full td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.tbl-full th {
+    background: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tbl-full tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tbl-full tr:hover {
+    background-color: #e9ecef;
+}
+
+.btn-update-admin, .btn-delete-admin {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition:  0.3s;
+}
+
+.btn-update-admin {
+    background: #28a745;
+}
+
+.btn-update-admin:hover {
+    background: #218838;
+}
+
+.btn-delete-admin {
+    background: #dc3545;
+}
+
+.btn-delete-admin:hover {
+    background: #c82333;
+}
+
+.no-data {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 20px;
+}
+
+
+   /* forms styling start here */
+     /* .main-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .centered-heading {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+
+        display: flex;
+        flex-direction: column;
+        
+            background-color: #fff;
+            padding: 20px 30px;
+            margin-left: 16%;
+            margin-top: 7%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+    }
+     
+    .form-group {
+        margin-bottom: 15px;
+        font-size: larger;
+    }
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    .btn-submit {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .radio-group {
+        display: flex;
+        gap: 20px;
+    }
+
+    .image-preview {
+        margin-top: 10px;
+    }
+
+    .preview-img {
+        max-width: 150px;
+        border-radius: 5px;
+    }
+
+    .btn-submit {
+        background-color: #5cb85c;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .btn-submit:hover {
+        background-color: #4cae4c;
+    }
+
+    .no-image-text {
+        color: #888;
+        font-style: italic;
+    } 
+  */
+
+
+
+ /* for different style of forms  // depend on my choice  */
+
+ 
+ .main-section {
+    max-width: 900px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.centered-heading {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 3%;
+    color: #333;
+    
+}
+
+
+.horizontal-form .form-group {
+    display: flex;
+    align-items: center;
+
+    margin: 0px 80px 10px 110px;
+}
+
+.form-group label {
+    min-width: 150px;
+    font-size: 1.2em;
+    color: #181616;
+}
+.image-preview {
+    margin-top: 10px;
+}
+
+.preview-img {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+    flex: 0.75;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.radio-group {
+    display: flex;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+.btn-submit {
+    background-color: #3ea33e;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-left: 150px; 
+    margin-top: 20px;
+
+    
+}
+
+.btn-submit:hover {
+    background-color: #1e811e;
+     
+}  
+
+
+
